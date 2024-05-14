@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Kafka-demo-app
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      topic-name: topic1
+      group-id: group1
+    consumer:
+      bootstrap-servers: localhost:9092
+      topic-name: topic1
+      group-id: group1
+      auto-offset-reset: earliest
+
